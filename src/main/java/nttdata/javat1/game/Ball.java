@@ -21,34 +21,6 @@ public class Ball {
 	/** Vidas */
 	private int life;
 
-	/**
-	 * @param score the score to set
-	 */
-	public void setScore(int score) {
-		this.score = score;
-	}
-
-	/**
-	 * @param life the life to set
-	 */
-	public void setLife(int life) {
-		this.life = life;
-	}
-
-	/**
-	 * @return the score
-	 */
-	public int getScore() {
-		return score;
-	}
-
-	/**
-	 * @return the life
-	 */
-	public int getLife() {
-		return life;
-	}
-
 	/** Creación de un objeto Random */
 	final Random r = new Random();
 
@@ -59,7 +31,7 @@ public class Ball {
 
 		LOG.info("TRAZA DE INICIO");
 
-		// Iteración de los rebotes.
+		// Iteración de los 4 rebotes.
 		for (int i = 1; i < 5; i++) {
 
 			LOG.info("Rebote número {}", i);
@@ -107,5 +79,33 @@ public class Ball {
 		System.out.println("\nHas perdido una bola, te quedan " + life + " bolas");
 
 		LOG.info("TRAZA FIN");
+	}
+
+	/**
+	 * @param score the score to set
+	 */
+	public void setScore(int score) {
+		this.score = score;
+	}
+
+	/**
+	 * @param life the life to set
+	 */
+	public void setLife(int life) {
+		this.life = life;
+	}
+
+	/**
+	 * @return the score
+	 */
+	public int getScore() {
+		return score;
+	}
+
+	/**
+	 * @return the life
+	 */
+	public int getLife() {
+		return life;
 	}
 }

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"nttdata.javat1.game","l":"Ball"},{"p":"nttdata.javat1.game","l":"Game"},{"p":"nttdata.javat1","l":"T1MainManoliMG"}];updateSearchResults();

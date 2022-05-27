@@ -59,6 +59,7 @@ public class Game {
 
 		try {
 
+			// El dato introducido solo puede ser número 1 o 2
 			do {
 
 				// Menú para empezar o terminar el juego.
